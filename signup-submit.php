@@ -14,10 +14,12 @@
     <title>Successful Registration!</title>
 </head>
 <body>
-    <h1>Thank you!</h1>
-    <p>You have successfully registered under the name, <?php echo $_POST["name"] ?>!</p>
-    <p>Please log in to access the puzzles.</p>
-    <
-
+    <div id="box">
+        <div id="inner">
+            <h1>Thank you!</h1>
+            <p>You have successfully registered under the name, <?php echo $_POST["name"] ?>!</p>
+            <p>Please log in to access the puzzles.</p>
+        </div>
+    </div>
 </body>
 </html>
