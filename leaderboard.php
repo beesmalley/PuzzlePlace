@@ -2,7 +2,7 @@
 session_start();
 
 // Read scores file and get scores for each player
-$scores_file = file("answers.txt");
+$scores_file = file("scores.txt");
 $scores = [];
 foreach($scores_file as $line) {
     $parts = explode(":", $line);
