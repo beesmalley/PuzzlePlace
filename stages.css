@@ -42,11 +42,6 @@ body{
     margin-bottom: -2%;
 }
 
-#q3{
-    padding: 20px;
-    width: 50%;
-}
-
 #box{
     padding: 35px;
     background-color: white;
@@ -54,3 +49,6 @@ body{
     margin: auto;
 }
 
+.st2_img{
+    width: 50%;
+}
