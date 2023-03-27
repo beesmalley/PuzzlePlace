@@ -16,7 +16,11 @@
     if(!$found){
         echo "Incorrect username or password.";
     }else{
-        echo "Successfully logged in.";
+        echo "<div id=\"box\">
+                <p>Successfully logged in.</p>
+                <br>
+                <p><a href=\"stage1.html\">Continue to the first puzzle here</a></p>
+            </div>";
         }
 
 ?>
@@ -26,7 +30,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" text="text/css" href="theme/main.css">
+    <link rel="stylesheet" text="text/css" href="main.css">
     <title></title>
 </head>
 <body>
