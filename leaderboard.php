@@ -39,8 +39,9 @@ arsort($scores);
 			background-image: url('R.jpg');
         }
         .header {
-            background-color: #ff6600;
+            background-color: #ada9a1;
             color: #ffffff;
+			border: 10px solid #dddddd;
             text-align: center;
             padding: 20px;
         }
@@ -57,18 +58,18 @@ arsort($scores);
             margin-bottom: 40px;
         }
         th {
-            background-color: #ff6600;
+            background-color: #ada9a1;
             font-weight: bold;
             text-align: left;
             padding: 10px;
-            border: 1px solid #dddddd;
+            border: 5px solid #dddddd;
             color: #ffffff;
         }
         td {
             background-color: #ffffff;
             text-align: left;
             padding: 10px;
-            border: 1px solid #dddddd;
+            border: 5px solid #dddddd;
         }
         tr:nth-child(even) td {
             background-color: #f2f2f2;
