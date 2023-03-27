@@ -1,4 +1,10 @@
 <?php 
+    session_start();
+    
+    $_SESSION["name"]=$_POST["uname"];
+    $_SESSION["score"]=0;
+
+
     $file =file("data.txt");
     $user='';
     $pass='';
@@ -18,6 +24,7 @@
     }else{
         echo "<div id=\"box\">
                 <p>Successfully logged in.</p>
+                <br>
                 <br>
                 <p><a href=\"stage1.html\">Continue to the first puzzle here</a></p>
             </div>";
