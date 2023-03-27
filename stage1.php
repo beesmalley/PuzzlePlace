@@ -1,3 +1,10 @@
+<?php
+ session_start();
+ if(isset($_SESSION["name"])){
+    echo "Session is set. Session name: ".$_SESSION["name"];
+ }
+?>
+
 <html>
     <head>
         <title> Stage 1 </title>
