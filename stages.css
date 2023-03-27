@@ -1,0 +1,54 @@
+body{
+	margin:0;
+    text-align: center;
+}
+
+.background {
+    position:fixed;
+    Opacity: 0.5;
+    Z-index: -1;
+}
+.background img {
+    width:100vw;
+    height: 100vh;
+}
+
+#top
+{	
+	text-align: center;
+	font-weight: bold;   
+	font-size: 25px;
+	margin: auto;
+	padding: 20px;
+}
+#top_h1{
+	vertical-align:middle;
+    font-family: "Copperplate", fantasy;
+}
+#top_h4{
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#q1{
+    padding: 20px;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+#q2{
+    padding: 20px;
+    width: 55%;
+    margin-top: -5%;
+    margin-bottom: -2%;
+}
+
+#box{
+    padding: 35px;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+}
+
+.st2_img{
+    width: 50%;
+}
