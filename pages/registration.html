@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="/style/main.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="box">
+        <div id="left" class="inner">
+            <h1>Register Here.</h1>
+            <br>
+            <hr>
+            <hr>
+            <form action="signup-submit.php">
+                <p>
+                <strong><label >Username: </label></strong>
+                <input type="text" name="uname" placeholder="Username" required>
+                </p>
+                <p>
+                <strong><label >Password: </label></strong>
+                <input  type="password" name="pass" placeholder="Password" required>
+                </p>
+                <p>
+                <strong><label >Verify Password: </label></strong>
+                <input  type="password" name="passverify" placeholder="Password" required>
+                </p>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <div id="right" class="inner">
+            <h1>Already have an account? Log in here.</h1>
+            <br>
+            <hr>
+            <form action="login-submit.php">
+                <p>
+                <strong><label >Username: </label></strong>
+                <input  type="text" name="uname" placeholder="Username" required>
+                </p>
+                <p>
+                <strong><label >Password: </label></strong>
+                <input type="password" name="pass" placeholder="Password" required>
+                </p>
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
