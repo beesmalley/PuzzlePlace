@@ -26,7 +26,7 @@
                 <p>Successfully logged in.</p>
                 <br>
                 <br>
-                <p><a href=\"stage1.html\">Continue to the first puzzle here</a></p>
+                <p><a href=\"stage1.php\">Continue to the first puzzle here</a></p>
             </div>";
         }
 
