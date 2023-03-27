@@ -36,6 +36,7 @@ arsort($scores);
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
+			background-image: url('R.jpg');
         }
         .header {
             background-color: #ff6600;
