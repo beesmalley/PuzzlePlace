@@ -1,5 +1,8 @@
 <?php
-
+ session_start();
+ if(isset($_SESSION["name"])){
+    echo "Session is set. Session name: ".$_SESSION["name"];
+ }
 $file = file("answers.txt");
 $stage1=$file[0];
 $stage2=$file[1];
