@@ -12,7 +12,7 @@ if(isset($_POST["first"])&&$_REQUEST["first"]){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
-    <p><a href=\"stage2.html\">Move on to stage 2.</a></p>
+    <p><a href=\"stage2.php\">Move on to stage 2.</a></p>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
@@ -21,7 +21,7 @@ if(isset($_POST["second"])&&$_REQUEST["second"]){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
-    <p><a href=\"stage3.html\">Move on to stage 3.</a></p>
+    <p><a href=\"stage3.php\">Move on to stage 3.</a></p>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
@@ -30,7 +30,7 @@ if(isset($_POST["third"])&&$_REQUEST["third"]){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
-    <p><a href=\"stage4.html\">Move on to stage 4.</a></p>
+    <p><a href=\"stage4.php\">Move on to stage 4.</a></p>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
