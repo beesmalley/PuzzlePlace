@@ -13,6 +13,7 @@ if(isset($_POST["first"])&&$_REQUEST["first"]){
     }
     echo "<div id=\"box\"> 
     <p><a href=\"stage2.php\">Move on to stage 2.</a></p>
+    <br>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
@@ -22,6 +23,7 @@ if(isset($_POST["second"])&&$_REQUEST["second"]){
     }
     echo "<div id=\"box\"> 
     <p><a href=\"stage3.php\">Move on to stage 3.</a></p>
+    <br>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
@@ -31,6 +33,7 @@ if(isset($_POST["third"])&&$_REQUEST["third"]){
     }
     echo "<div id=\"box\"> 
     <p><a href=\"stage4.php\">Move on to stage 4.</a></p>
+    <br>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 	
@@ -41,6 +44,7 @@ if(isset($_POST["fourth"])&&$_REQUEST["fourth"]){
     }
     echo "<div id=\"box\"> 
     <p><a href=\"stage5.php\">Move on to stage 5.</a></p>
+    <br>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
 }
@@ -50,7 +54,9 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
     }
     echo "<div id=\"box\"> 
     <p>Congratulations, you have completed all stages!</p>
+    <br>
 	<p>Final score: ".$_SESSION["score"]."</p>
+    <br>
 	<p><a href=\"leaderboard.php\">View leaderboard</a></p>
     </div>";
 
