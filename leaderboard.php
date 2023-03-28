@@ -15,10 +15,10 @@ if(isset($_SESSION["name"])){
     $score = isset($_SESSION["score"]) ? intval($_SESSION["score"]) : 0;
     if(isset($scores[$name])) {
         $scores[$name] += $score;
-    } else {
-        $scores[$name] = $score;
-    }
-    unset($_SESSION["score"]);
+    }// } else {
+    //     $scores[$name] = $score;
+    // }
+    // unset($_SESSION["score"]);
 }
 
 // Sort scores in descending order
