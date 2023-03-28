@@ -20,7 +20,12 @@
         }
     }
     if(!$found){
-        echo "Incorrect username or password.";
+        echo "<div id=\"box\">
+        <p>Incorrect username or password.</p>
+        <br>
+        <br>
+        <p><a href=\"stage1.php\">Continue to the first puzzle here</a></p>
+        </div>";
     }else{
         echo "<div id=\"box\">
                 <p>Successfully logged in.</p>
