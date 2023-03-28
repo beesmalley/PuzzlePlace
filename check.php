@@ -31,6 +31,12 @@ if(isset($_POST["third"])&&$_REQUEST["third"]){
     <p><a href=\"stage4.php\">Move on to stage 4.</a></p>
     <p>Current score: ".$_SESSION["score"]."</p>
     </div>";
+	
+		echo "<div id=\"box\"> 
+	<p>Congratulations, you have completed all stages!</p>
+	<p>Final score: ".$_SESSION["score"]."</p>
+	<p><a href=\"leaderboard.php\">View leaderboard</a></p>
+	</div>";
 }
 
 ?>
