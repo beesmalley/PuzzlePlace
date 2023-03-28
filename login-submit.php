@@ -9,7 +9,7 @@
     $found=false;
     for($i=0;$i<count($file);$i++){
         $personinfo=explode(",",$file[$i]);
-        echo $personinfo;
+        echo $personinfo[0];
         if($personinfo[0]==$_POST["uname"]){
     
             if($personinfo[1]==$_POST["pass"]){
