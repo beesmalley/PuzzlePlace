@@ -1,6 +1,6 @@
 <?php
         $file="data.txt";
-        $newdata="\n".$_POST["uname"].",".$_POST["pass"];
+        $newdata=$_POST["uname"].",".$_POST["pass"]."\n";
         file_put_contents($file,$newdata,FILE_APPEND);
         $name=$_POST["uname"];
     ?>
