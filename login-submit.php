@@ -9,9 +9,9 @@
     $found=false;
     for($i=0;$i<count($file);$i++){
         $personinfo=explode(",",$file[$i]);
-        echo "test";
+        
         if($personinfo[0]==$_POST["uname"]){
-            //not hitting here
+            echo "test";
             if($personinfo[1]==$_POST["pass"]){
                 $found=true;
                 break;
