@@ -67,6 +67,6 @@ body{
 #box{
     padding: 35px;
     background-color: white;
-    height: 500px;
+    width: 20%;
     margin: auto;
 }
