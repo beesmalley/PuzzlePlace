@@ -5,6 +5,10 @@ body{
     height: 100%;
 }
 
+a{
+    text-align:center;
+}
+
 #box{
     margin:auto;
     width:50%;
