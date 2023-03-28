@@ -98,5 +98,6 @@ session_destroy();
             </tbody>
         </table>
     </div>
+    <a href="index.html">Back to index page</a>
 </body>
 </html>
