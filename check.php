@@ -85,7 +85,7 @@ file_put_contents($file,$newdata,FILE_APPEND);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Document</title>
+    <title>Stage Change</title>
 </head>
 <body>
     
