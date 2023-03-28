@@ -2,12 +2,12 @@
 session_start();
 
 // Read scores file and get scores for each player
-$scores_file = file("scores.txt");
-$scores = [];
-foreach($scores_file as $line) {
-    $parts = explode(":", $line);
-    $scores[$parts[0]] = intval($parts[1]);
-}
+// $scores_file = file("scores.txt");
+// $scores = [];
+// foreach($scores_file as $line) {
+//     $parts = explode(":", $line);
+//     $scores[$parts[0]] = intval($parts[1]);
+// }
 
 // Update score for current player
 if(isset($_SESSION["name"])){
