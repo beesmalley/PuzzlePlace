@@ -9,8 +9,10 @@
     $found=false;
     for($i=0;$i<count($file);$i++){
         $personinfo=explode(",",$file[$i]);
-        if($personinfo[0]==$_POST["uname"]){
-            if($personinfo[1]==$_POST["password"]){
+        $username=trim($personinfo[0]);
+        $passwurd=trim($personinfo[1]);
+        if($username==$_POST["uname"]){
+            if($passwurd==$_POST["pass"]){
                 $found=true;
                 break;
             }
