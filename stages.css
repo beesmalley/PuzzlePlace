@@ -59,6 +59,11 @@ body{
     height: 500px;
 }
 
+#q6{
+    padding: 20px;
+    width: 60%;
+}
+
 #box{
     padding: 35px;
     background-color: white;
