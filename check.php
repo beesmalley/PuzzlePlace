@@ -55,11 +55,7 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
     </div>";
 
     $file="score.txt";
-    if($file[0]==""){
-        $newdata=$_SESSION["name"].",".$_SESSION["score"];
-    }else{
-        $newdata="\n".$_SESSION["name"].",".$_SESSION["score"];
-    }
+    $newdata=$_SESSION["name"].",".$_SESSION["score"]."\n";
     file_put_contents($file,$newdata,FILE_APPEND);
 
 }
