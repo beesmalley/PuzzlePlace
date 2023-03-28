@@ -5,7 +5,7 @@
     $_SESSION["score"]=0;
 
 
-    $file =file("data.txt");
+    $file =file("https://codd.cs.gsu.edu/~ssmalley1/WP/PW/PW02/data.txt");
     $found=false;
     for($i=0;$i<count($file);$i++){
         $personinfo=explode(",",$file[$i]);
