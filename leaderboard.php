@@ -10,19 +10,20 @@ foreach($scores_file as $line) {
 }
 
 // Update score for current player
-if(isset($_SESSION["name"])){
-    $name = $_SESSION["name"];
-    $score = isset($_SESSION["score"]) ? intval($_SESSION["score"]) : 0;
-    if(isset($scores[$name])) {
-        $scores[$name] += $score;
-    } else {
-        $scores[$name] = $score;
-    }
-    unset($_SESSION["score"]);
-}
+// if(isset($_SESSION["name"])){
+//     $name = $_SESSION["name"];
+//     $score = isset($_SESSION["score"]) ? intval($_SESSION["score"]) : 0;
+//     if(isset($scores[$name])) {
+//         $scores[$name] += $score;
+//     } else {
+//         $scores[$name] = $score;
+//     }
+//     unset($_SESSION["score"]);
+// }
 
 // Sort scores in descending order
 arsort($scores);
+session_destroy();
 ?>
 
 <!DOCTYPE html>
