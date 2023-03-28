@@ -31,30 +31,32 @@ body{
 
 #q1{
     padding: 20px;
-    width: 35%;
+    width: 500px;
+    height: 500px;
     margin-bottom: 20px;
 }
 
 #q2{
     padding: 20px;
-    width: 55%;
+    width: 500px;
+    height: 500px;
     margin-top: -5%;
     margin-bottom: -2%;
 }
 
 #q3{
     padding: 20px;
-    width: 50%;
+    height: 500px;
 }
 
 #q4{
     padding: 20px;
-    width: 45%;
+    height: 500px;
 }
 
 #q5{
     padding: 20px;
-    width: 60%;
+    height: 500px;
 }
 
 #box{

@@ -7,6 +7,14 @@ body{
 
 #box{
     margin:auto;
+    width:50%;
+    height:500px;
+    background-color: #ada9a1;
+    border-radius: 10px;
+    border: 2px solid #9c8c84
+}
+#formbox{
+    margin:auto;
     display:flex;
     width:50%;
     height:500px;
