@@ -53,18 +53,28 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
+    <p><a href=\"stage6.php\">Move on to stage 6.</a></p>
+    <br>
+    <p>Current score: ".$_SESSION["score"]."</p>
+    </div>";
+
+
+}
+if(isset($_POST["sixth"])&&$_REQUEST["sixth"]){
+    if($_POST["sixth"]==$stage6){
+        $_SESSION["score"]++;
+    }
+    echo "<div id=\"box\"> 
     <p>Congratulations, you have completed all stages!</p>
     <br>
 	<p>Final score: ".$_SESSION["score"]."</p>
     <br>
 	<p><a href=\"leaderboard.php\">View leaderboard</a></p>
     </div>";
-
-    $file="score.txt";
-    $newdata=$_SESSION["name"].",".$_SESSION["score"]."\n";
-    file_put_contents($file,$newdata,FILE_APPEND);
-
 }
+$file="score.txt";
+$newdata=$_SESSION["name"].",".$_SESSION["score"]."\n";
+file_put_contents($file,$newdata,FILE_APPEND);
 
 ?>
 <!DOCTYPE html>
