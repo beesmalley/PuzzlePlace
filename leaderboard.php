@@ -74,6 +74,12 @@ session_destroy();
                 font-size: 24px;
             }
         }
+        #return{
+            margin-left:auto;
+            margin-right:auto;
+            width:fit-content;
+            background-color:#ada9a1;
+        }
     </style>
 </head>
 <body>
@@ -98,6 +104,8 @@ session_destroy();
             </tbody>
         </table>
     </div>
+    <div id="return">
     <a href="index.html">Back to index page</a>
+    </div>
 </body>
 </html>
