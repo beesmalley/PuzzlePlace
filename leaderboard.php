@@ -79,6 +79,8 @@ session_destroy();
             margin-right:auto;
             width:fit-content;
             background-color:#ada9a1;
+            padding: 15px;
+            border-radius:10px;
         }
     </style>
 </head>
