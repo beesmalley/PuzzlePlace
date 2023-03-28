@@ -49,15 +49,11 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
-    <p><a href=\"stage6.php\">Move on to stage 6.</a></p>
-    <p>Current score: ".$_SESSION["score"]."</p>
-    </div>";
-
-    echo "<div id=\"box\"> 
-	<p>Congratulations, you have completed all stages!</p>
+    <p>Congratulations, you have completed all stages!</p>
 	<p>Final score: ".$_SESSION["score"]."</p>
 	<p><a href=\"leaderboard.php\">View leaderboard</a></p>
-	</div>";
+    </div>";
+
 }
 
 ?>
