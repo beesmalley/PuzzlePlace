@@ -2,13 +2,13 @@
  session_start();
 
 $file = file("answers.txt");
-$stage1=$file[0];
-$stage2=$file[1];
-$stage3=$file[2];
-$stage4=$file[3];
-$stage5=$file[4];
+$stage1=trim($file[0]);
+$stage2=trim($file[1]);
+$stage3=trim($file[2]);
+$stage4=trim($file[3]);
+$stage5=trim($file[4]);
 if(isset($_POST["first"])&&$_REQUEST["first"]){
-    if($_POST["first"]==$stage1){
+    if(trim($_POST["first"])==$stage1){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
@@ -18,7 +18,7 @@ if(isset($_POST["first"])&&$_REQUEST["first"]){
     </div>";
 }
 if(isset($_POST["second"])&&$_REQUEST["second"]){
-    if($_POST["second"]==$stage2){
+    if(trim($_POST["second"])==$stage2){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
@@ -28,7 +28,7 @@ if(isset($_POST["second"])&&$_REQUEST["second"]){
     </div>";
 }
 if(isset($_POST["third"])&&$_REQUEST["third"]){
-    if($_POST["third"]==$stage3){
+    if(trim($_POST["third"])==$stage3){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
@@ -39,7 +39,7 @@ if(isset($_POST["third"])&&$_REQUEST["third"]){
 	
 }
 if(isset($_POST["fourth"])&&$_REQUEST["fourth"]){
-    if($_POST["fourth"]==$stage4){
+    if(trim($_POST["fourth"])==$stage4){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
@@ -49,7 +49,7 @@ if(isset($_POST["fourth"])&&$_REQUEST["fourth"]){
     </div>";
 }
 if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
-    if($_POST["fifth"]==$stage5){
+    if(trim($_POST["fifth"])==$stage5){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
@@ -61,7 +61,7 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
 
 }
 if(isset($_POST["sixth"])&&$_REQUEST["sixth"]){
-    if($_POST["sixth"]==$stage6){
+    if(trim($_POST["sixth"])==$stage6){
         $_SESSION["score"]++;
     }
     echo "<div id=\"box\"> 
