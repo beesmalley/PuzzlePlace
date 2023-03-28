@@ -4,12 +4,14 @@
     $_SESSION["name"]=$_POST["uname"];
     $_SESSION["score"]=0;
 
-
+    echo "test";
     $file =file("https://codd.cs.gsu.edu/~ssmalley1/WP/PW/PW02/data.txt");
     $found=false;
     for($i=0;$i<count($file);$i++){
         $personinfo=explode(",",$file[$i]);
+        //not hitting here
         if($personinfo[0]==$_POST["uname"]){
+            //not hitting here
             if($personinfo[1]==$_POST["pass"]){
                 $found=true;
                 break;
