@@ -54,6 +54,10 @@ if(isset($_POST["fifth"])&&$_REQUEST["fifth"]){
 	<p><a href=\"leaderboard.php\">View leaderboard</a></p>
     </div>";
 
+    $file=file("score.txt");
+    $newdata="\n".$_SESSION["name"].",".$_SESSION["score"];
+    file_put_contents($file,$newdata,FILE_APPEND);
+
 }
 
 ?>
