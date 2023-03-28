@@ -7,6 +7,7 @@ $stage2=trim($file[1]);
 $stage3=trim($file[2]);
 $stage4=trim($file[3]);
 $stage5=trim($file[4]);
+$stage6=trim($file[5]);
 if(isset($_POST["first"])&&$_REQUEST["first"]){
     if(trim($_POST["first"])==$stage1){
         $_SESSION["score"]++;
